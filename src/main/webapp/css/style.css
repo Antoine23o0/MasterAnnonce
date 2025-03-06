@@ -1,0 +1,97 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Conteneur */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Titres */
+h2 {
+    color: #333;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Liens */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Tableaux */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fafafa;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+/* Formulaires */
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Boutons */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px;
+    border: none;
+    margin-top: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Messages d'erreur */
+p.error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
